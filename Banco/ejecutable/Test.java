@@ -11,7 +11,7 @@ public class Test {
     /// Entrada de datos
     double deposito = Double.parseDouble(JOptionPane.showInputDialog("Digite el valor a depositar: "));
 
-    /// Creacion de un objeto rectangulo
+    /// Creacion de objetos
 
     CuentaAhorros miCuentaAhorros = new CuentaAhorros(deposito);
     JOptionPane.showMessageDialog(null, "Su inversion fue de: " + deposito + " y si su cuenta es de ahorros su interes es del 4%, el total de su dinero es: " + miCuentaAhorros.hallarInteres());
